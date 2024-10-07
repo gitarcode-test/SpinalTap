@@ -47,9 +47,7 @@ public class ListenableSourceTest {
     }
 
     @Override
-    public boolean isStarted() {
-      return false;
-    }
+    public boolean isStarted() { return false; }
 
     @Override
     public void open() {}
