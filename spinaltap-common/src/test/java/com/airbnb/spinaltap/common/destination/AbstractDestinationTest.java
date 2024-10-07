@@ -111,9 +111,7 @@ public class AbstractDestinationTest {
     }
 
     @Override
-    public boolean isStarted() {
-      return true;
-    }
+    public boolean isStarted() { return true; }
 
     @VisibleForTesting
     @Override
